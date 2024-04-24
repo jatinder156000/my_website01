@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>calculator</h3>
+    <div class="calculator">
+        <input type="text" id="result" placeholder="result" readonly>
+        <div class="buttons">
+            <button onclick="appendtoresult('1')">1</button>
+            <button onclick="appendtoresult('2')">2</button>
+            <button onclick="appendtoresult('3')">3</button>
+            <button onclick="setOperator('+')">+</button>
+            <button onclick="appendtoresult('4')">4</button>
+            <button onclick="appendtoresult('5')">5</button>
+            <button onclick="appendtoresult('6')">6</button>
+            <button onclick="setOperator('-')">-</button>
+            <button onclick="appendtoresult('7')">7</button>
+            <button onclick="appendtoresult('8')">8</button>
+            <button onclick="appendtoresult('9')">9</button>
+            <button onclick="setOperator('*')">*</button>
+            <button onclick="clearresult('C')">C</button>
+            <button onclick="appendtoresult('0')">0</button>
+            <button onclick="displayresult('=')">=</button>
+            <button onclick="setOperator('/')">/</button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
